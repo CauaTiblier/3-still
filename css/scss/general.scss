@@ -3,3 +3,28 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
+$primary-color: hsl(31, 77%, 52%);      //Bright orange
+$primary-color2: hsl(184, 100%, 22%);   //Dark cyan
+$primary-color3: hsl(179, 100%, 13%);   //Very dark cyan
+
+$secundary-color: hsla(0, 0%, 100%, 0.75);  //Transparent white (paragraphs)
+$secundary-color2: hsl(0, 0%, 95%);         //Very light gray (background, headings, buttons)
+
+html{
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: $secundary-color2;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7%;
+  padding-bottom: 5%
+}
+
+@import 'card';
+@import 'media';
