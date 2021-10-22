@@ -1,0 +1,26 @@
+@media screen and (max-width: 700px) {
+  .container{
+
+    .card{
+      flex-direction: column;
+      width: 88%;
+
+      .item-a{
+        border-top-right-radius: 0.2rem;
+        border-bottom-left-radius: 0;
+      }
+
+      .item-c{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.2rem;
+      }
+
+      .item{
+        p{
+          font-size: 1rem;
+          padding-bottom:3rem;
+        }
+      }
+    }
+  }
+}
